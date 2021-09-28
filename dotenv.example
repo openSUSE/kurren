@@ -1,0 +1,37 @@
+### openQA Configuration
+# Your openQA API key
+# Default: none (you need to set this)
+OBS_TOOLS_OPENQA_KEY=12345
+
+# Your openQA API secret
+# Default: none (you need to set this)
+OBS_TOOLS_OPENQA_SECRET=password
+
+# The URL to your openQA instance
+# Default: https://openqa.opensuse.org
+OBS_TOOLS_OPENQA_URL=https://openqa.opensuse.org
+
+### Slack Configuration
+# Your Slack Webhook URL
+# Default: none (you need to set this)
+OBS_TOOLS_SLACK_URL=https://slack.com
+
+### Trello Configuration
+# Your Trello API Key, see https://developers.trello.com/
+# Default: nothing (you have to set this)
+OBS_TOOLS_TRELLO_API_KEY=12345
+
+# Your Trello API Token, see https://developers.trello.com/
+# Default: nothing (you have to set this)
+OBS_TOOLS_TRELLO_API_TOKEN=67890
+
+# The id of the trello card you want to change
+# Default: nothing (you have to set this)
+OBS_TOOLS_TRELLO_CARD_ID=abcde
+
+### SMTP Configuration
+# Your e-mail relay host
+# Default: none (you have to set this)
+OBS_TOOLS_SMTP_SERVER=relay.example.com
+
+
