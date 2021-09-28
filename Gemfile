@@ -13,3 +13,7 @@ gem 'faraday'
 # to parse HTTP responses
 gem 'json'
 gem 'xmlhash'
+# as test runner
+gem 'rspec'
+# as ruby linter
+gem 'rubocop'
