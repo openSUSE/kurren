@@ -42,9 +42,11 @@ class Openqa
     iso_body << "&BUILD=#{qcow2_image['build_id']}"
     response = Faraday.post("#{OPENQA_URL}#{iso_path}", iso_body, auth_hash_for_path(path: iso_path))
 
-    return unless response.status != 200
-
-    logger.warn("Could not schedule openQA job: #{response.body}")
+    if response.status == 200
+      logger.info("Scheduled openQA job for #{qcow2_image['filename']}: #{response.body}")
+    else
+      logger.warn("Could not schedule openQA job: #{response.body}")
+    end
   end
 
   # Sends out notifications for a finished openQA job
