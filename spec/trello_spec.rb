@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'trello'
 
 RSpec.describe Trello do
