@@ -1,0 +1,7 @@
+version: "2.4"
+
+services:
+  kurren:
+    image: registry.opensuse.org/obs/server/unstable/containers/containers/openbuildservice/kurren:latest
+    env_file: .env
+    command: bundle exec ruby kurren.rb

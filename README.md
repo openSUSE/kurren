@@ -8,14 +8,31 @@ Fish in the sea of APMQ messages from rabbit.opensuse.org and do the right thing
 - Notify via slack/mail about openQA test runs
 - Notify via slack/trello about failed OBS:Server:Unstable builds
 
-## Setup
+## Installation
 
 ```shell
 zypper install libxml2-devel gcc ruby-devel ruby2.5-rubygem-bundler
 bundle install --path vendor/bundle
-bundle exec ruby kurren.rb
 ```
+
+or use [docker-compose](https://docs.docker.com/compose/)
+
+```shell
+docker-compose pull
+```
+
 ## Configuration
 
 This bot is configured via environment variables. Either set them however you set them
 or copy the `dotenv.example` file to `.env` and the script picks them up from this file.
+
+## Usage
+```shell
+bundle exec ruby kurren.rb
+```
+
+or use docker-compose
+
+```shell
+docker-compose up
+```
