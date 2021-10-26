@@ -27,7 +27,7 @@ class Obs
     @trello.status = status
     @trello.notify
 
-    slack_message = 'Build failed for obs-server. https://build.opensuse.org/package/live_build_log/OBS:Server:Unstable/obs-server/SLE_15_SP3/x86_64'
+    slack_message = 'Build failed for obs-server. https://build.opensuse.org/package/live_build_log/OBS:Server:Unstable/obs-server/15.3/x86_64'
     @slack.notify(message: slack_message) if status == :failed
   end
 
