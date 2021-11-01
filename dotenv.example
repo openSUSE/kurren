@@ -1,3 +1,12 @@
+### Kurren Configuration
+# Notify slack about failed OBS builds
+# Default: true
+KURREN_NOTIFY_SLACK_OBS=true
+
+# Notify slack about failed openQA builds
+# Default: false
+KURREN_NOTIFY_SLACK_OPENQA=false
+
 ### openQA Configuration
 # Your openQA API key
 # Default: none (you need to set this)
