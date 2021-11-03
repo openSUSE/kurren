@@ -16,4 +16,8 @@ gem 'xmlhash'
 # as test runner
 gem 'rspec'
 # as ruby linter
-gem 'rubocop'
+gem 'rubocop', require: false
+# for rspec style checks
+gem 'rubocop-rspec', require: false
+# for performance checks
+gem 'rubocop-performance', require: false

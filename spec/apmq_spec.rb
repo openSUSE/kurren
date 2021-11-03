@@ -3,7 +3,7 @@
 require 'apmq'
 
 RSpec.describe Apmq do
-  context 'blah' do
+  context 'when blah' do
     it 'blubb' do
     end
   end
