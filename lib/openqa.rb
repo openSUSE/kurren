@@ -57,6 +57,8 @@ class Openqa
 
     notify_mail
 
+    return unless ENV.fetch('KURREN_NOTIFY_SLACK_OPENQA', false)
+
     slack_message = ":fire: openQA failed for #{job['settings']['VERSION']}. "
     slack_message += "See #{OPENQA_URL}/tests/overview?distri=obs&version=#{job['settings']['VERSION']}&build=#{job['settings']['BUILD']}&groupid=#{job['group_id']}"
     @slack.notify(message: slack_message) if job['result'] == 'failed'
