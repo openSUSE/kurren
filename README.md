@@ -36,3 +36,7 @@ or use docker-compose
 ```shell
 docker-compose up
 ```
+
+## Development / Contribution
+
+If you want to contribute please checkout our [contribution readme](CONTRIBUTING.md)
