@@ -11,7 +11,7 @@ class Obs
     binaries = fetch_binaries(version)
     return unless binaries
 
-    image = binaries['binary'].select { |binary| binary['filename'].end_with?('.qcow2') }.last
+    image = binaries['binary'].reverse.find { |binary| binary['filename'].end_with?('.qcow2') }
     if image
       image['build_id'] = "#{image['filename'].gsub('obs-server.x86_64-', '').gsub('Build', '').gsub('.qcow2', '')}"
       image

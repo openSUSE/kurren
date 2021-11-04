@@ -3,7 +3,7 @@
 require 'trello'
 
 RSpec.describe Trello do
-  context 'blah' do
+  context 'when blah' do
     it 'blubb' do
     end
   end
