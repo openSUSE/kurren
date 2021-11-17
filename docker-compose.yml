@@ -4,4 +4,5 @@ services:
   kurren:
     image: registry.opensuse.org/obs/server/unstable/containers/containers/openbuildservice/kurren:latest
     env_file: .env
+    restart: always
     command: bundle exec ruby kurren.rb
