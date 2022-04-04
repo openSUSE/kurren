@@ -1,0 +1,10 @@
+rebuild:
+  steps:
+    - trigger_services:
+        project: OBS:Server:Unstable:Containers
+        package: kurren
+  filters:
+    event: push
+    branches:
+      only:
+        - main
