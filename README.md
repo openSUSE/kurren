@@ -11,7 +11,7 @@ Fish in the sea of APMQ messages from rabbit.opensuse.org and do the right thing
 ## Installation
 
 ```shell
-zypper install libxml2-devel gcc ruby-devel ruby2.5-rubygem-bundler
+zypper install libxml2-devel gcc ruby3.1-devel
 bundle install --path vendor/bundle
 ```
 
