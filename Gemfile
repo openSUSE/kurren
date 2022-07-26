@@ -6,6 +6,9 @@ gem 'pry'
 gem 'dotenv'
 # to send mail
 gem 'mail'
+# FIXME: Remove once https://github.com/mikel/mail/pull/1472
+#        is released...
+gem 'net-smtp', require: false
 # to make APMQ connections
 gem 'bunny'
 # to make HTTP requests
