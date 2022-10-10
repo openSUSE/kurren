@@ -70,7 +70,7 @@ class Apmq
     return false if payload['project'] != 'OBS:Server:Unstable'
 
     payload['package'] == 'obs-server' &&
-      payload['repository'] == '15.3' &&
+      payload['repository'] == '15.4' &&
       payload['arch'] == 'x86_64'
   end
 end
