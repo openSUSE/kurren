@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
-require 'apmq'
+require 'amqp'
 
-RSpec.describe Apmq do
+RSpec.describe Amqp do
   context 'when blah' do
     it 'blubb' do
     end
