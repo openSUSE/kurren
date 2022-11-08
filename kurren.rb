@@ -11,7 +11,7 @@ require 'json'
 require 'digest'
 
 require_relative 'lib/logging'
-require_relative 'lib/apmq'
+require_relative 'lib/amqp'
 require_relative 'lib/obs'
 require_relative 'lib/openqa'
 require_relative 'lib/slack'
@@ -22,11 +22,11 @@ include Logging
 class Kurren
   def initialize
     super
-    @apmq = Apmq.new
+    @amqp = Amqp.new
   end
 
   def start
-    @apmq.broker
+    @amqp.broker
     loop do
       sleep 1.0
     end

@@ -1,4 +1,4 @@
-class Apmq
+class Amqp
   include Logging
 
   def initialize

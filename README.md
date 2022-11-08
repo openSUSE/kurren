@@ -2,7 +2,7 @@
 
 # Kurren
 
-Fish in the sea of APMQ messages from rabbit.opensuse.org and do the right thing.
+Fish in the sea of AMQP messages from rabbit.opensuse.org and do the right thing.
 
 - Trigger openQA test runs if OBS:Server:Unstable images are published
 - Notify via slack/mail about openQA test runs

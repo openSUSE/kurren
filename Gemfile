@@ -9,7 +9,7 @@ gem 'mail'
 # FIXME: Remove once https://github.com/mikel/mail/pull/1472
 #        is released...
 gem 'net-smtp', require: false
-# to make APMQ connections
+# to make AMQP connections
 gem 'bunny'
 # to make HTTP requests
 gem 'faraday'

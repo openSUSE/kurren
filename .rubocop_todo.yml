@@ -63,7 +63,7 @@ Style/Documentation:
     - 'spec/**/*'
     - 'test/**/*'
     - 'kurren.rb'
-    - 'lib/apmq.rb'
+    - 'lib/amqp.rb'
     - 'lib/logging.rb'
     - 'lib/obs.rb'
     - 'lib/openqa.rb'
@@ -78,7 +78,7 @@ Style/FrozenStringLiteralComment:
   Exclude:
     - 'Gemfile'
     - 'kurren.rb'
-    - 'lib/apmq.rb'
+    - 'lib/amqp.rb'
     - 'lib/logging.rb'
     - 'lib/obs.rb'
     - 'lib/openqa.rb'
