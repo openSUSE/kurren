@@ -8,14 +8,6 @@
 
 # Offense count: 1
 # This cop supports safe autocorrection (--autocorrect).
-# Configuration parameters: EnforcedStyle.
-# SupportedStyles: final_newline, final_blank_line
-Layout/TrailingEmptyLines:
-  Exclude:
-    - 'kurren.rb'
-
-# Offense count: 1
-# This cop supports safe autocorrection (--autocorrect).
 Lint/ScriptPermission:
   Exclude:
     - 'kurren.rb'

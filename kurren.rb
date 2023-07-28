@@ -36,4 +36,3 @@ end
 @kurren = Kurren.new
 # binding.pry
 @kurren.start
-
