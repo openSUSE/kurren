@@ -165,10 +165,10 @@ class Openqa
     timestamp = Time.now.to_i
     hmac_hash = OpenSSL::HMAC.hexdigest('sha1', OPENQA_API_SECRET, "#{path}#{timestamp}")
     {
-      'X-API-Microtime':timestamp.to_s,
-      'X-API-Key':OPENQA_API_KEY,
-      'X-API-Hash':"#{hmac_hash}",
-      'Accept':'application/json'
+      'X-API-Microtime': timestamp.to_s,
+      'X-API-Key': OPENQA_API_KEY,
+      'X-API-Hash': "#{hmac_hash}",
+      'Accept': 'application/json'
     }
   end
 end
