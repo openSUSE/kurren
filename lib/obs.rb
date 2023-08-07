@@ -29,7 +29,7 @@ class Obs
 
     return unless ENV.fetch('KURREN_NOTIFY_SLACK_OBS', true)
 
-    slack_message = 'Build failed for obs-server. https://build.opensuse.org/package/live_build_log/OBS:Server:Unstable/obs-server/15.4/x86_64'
+    slack_message = 'Build failed for obs-server. https://build.opensuse.org/package/live_build_log/OBS:Server:Unstable/obs-server/15.5/x86_64'
     @slack.notify(message: slack_message) if status == :failed
   end
 
