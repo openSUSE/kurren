@@ -4,9 +4,9 @@
 
 Fish in the sea of AMQP messages from rabbit.opensuse.org and do the right thing.
 
-- Trigger openQA test runs if OBS:Server:Unstable images are published
-- Notify via slack/mail about openQA test runs
-- Notify via slack/trello about failed OBS:Server:Unstable builds
+- Trigger openQA test runs if OBS:Server:Unstable images are published.
+- Notify via slack/mail about openQA test runs.
+- Notify via slack/trello about failed OBS:Server:Unstable builds.
 
 ## Installation
 
