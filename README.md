@@ -31,7 +31,7 @@ or copy the `dotenv.example` file to `.env` and the script picks them up from th
 bundle exec ruby kurren.rb
 ```
 
-or use docker-compose
+or use docker-compose:
 
 ```shell
 docker-compose up
