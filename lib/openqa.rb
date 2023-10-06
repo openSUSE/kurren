@@ -55,7 +55,7 @@ class Openqa
 
     logger.info('openQA job done, notifying...')
 
-    notify_mail if job['result'].in?(%w[passed failed])
+    notify_mail if %w[passed failed].include?(job['result'])
 
     return unless ENV.fetch('KURREN_NOTIFY_SLACK_OPENQA', false)
 
