@@ -35,7 +35,7 @@ GEM
     net-smtp (0.4.0)
       net-protocol
     parallel (1.24.0)
-    parser (3.2.2.4)
+    parser (3.3.0.2)
       ast (~> 2.4.1)
       racc
     pkg-config (1.5.5)
@@ -45,7 +45,7 @@ GEM
     racc (1.7.3)
     rainbow (3.1.1)
     rbtree (0.4.6)
-    regexp_parser (2.8.3)
+    regexp_parser (2.9.0)
     rexml (3.2.6)
     rspec (3.12.0)
       rspec-core (~> 3.12.0)
@@ -77,7 +77,7 @@ GEM
       rubocop (~> 1.41)
     rubocop-factory_bot (2.24.0)
       rubocop (~> 1.33)
-    rubocop-performance (1.20.1)
+    rubocop-performance (1.20.2)
       rubocop (>= 1.48.1, < 2.0)
       rubocop-ast (>= 1.30.0, < 2.0)
     rubocop-rspec (2.25.0)
