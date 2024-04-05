@@ -14,7 +14,7 @@ GEM
       faraday-net_http (>= 2.0, < 3.2)
     faraday-net_http (3.1.0)
       net-http
-    json (2.7.1)
+    json (2.7.2)
     language_server-protocol (3.17.0.3)
     mail (2.8.1)
       mini_mime (>= 0.1.1)
