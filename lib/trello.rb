@@ -11,6 +11,8 @@ class Trello
   attr_accessor :status
 
   def notify
+    return unless ENV.fetch('KURREN_NOTIFY_TRELLO_OBS', 'false') == 'true'
+
     change_card_content
     change_card_cover
   end

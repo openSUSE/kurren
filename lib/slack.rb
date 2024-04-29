@@ -4,6 +4,8 @@ class Slack
   SLACK_URL = ENV.fetch('OBS_TOOLS_SLACK_URL')
 
   def notify(message:)
+    return unless ENV.fetch('KURREN_NOTIFY_SLACK_OBS', 'false') == 'true'
+
     response = Faraday.post(SLACK_URL) do |request|
       request.headers['Content-Type'] = 'application/json'
       request.body = { text: message }.to_json

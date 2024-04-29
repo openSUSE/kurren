@@ -7,6 +7,10 @@ KURREN_NOTIFY_SLACK_OBS=true
 # Default: false
 KURREN_NOTIFY_SLACK_OPENQA=false
 
+# Notify trello about failed OBS builds
+# Default: false
+KURREN_NOTIFY_TRELLO_OBS=false
+
 ### openQA Configuration
 # Your openQA API key
 # Default: none (you need to set this)
