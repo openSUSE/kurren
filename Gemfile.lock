@@ -32,7 +32,7 @@ GEM
       net-protocol
     net-protocol (0.2.2)
       timeout
-    net-smtp (0.4.0.1)
+    net-smtp (0.5.0)
       net-protocol
     parallel (1.24.0)
     parser (3.3.1.0)
