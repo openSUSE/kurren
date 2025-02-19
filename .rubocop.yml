@@ -1,5 +1,7 @@
-require:
+plugins:
   - rubocop-performance
+
+require:
   - rubocop-rspec
 
 inherit_from: .rubocop_todo.yml
