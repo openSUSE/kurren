@@ -70,7 +70,7 @@ class Amqp
     return false if payload['project'] != 'OBS:Server:Unstable'
 
     payload['package'] == 'obs-server' &&
-      payload['repository'] == '15.6' &&
+      payload['repository'] == '15.7' &&
       payload['arch'] == 'x86_64'
   end
 end
