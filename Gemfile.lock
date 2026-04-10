@@ -41,8 +41,8 @@ GEM
       timeout
     net-smtp (0.5.1)
       net-protocol
-    parallel (1.27.0)
-    parser (3.3.10.2)
+    parallel (2.0.1)
+    parser (3.3.11.1)
       ast (~> 2.4.1)
       racc
     pkg-config (1.6.0)
@@ -54,7 +54,7 @@ GEM
     racc (1.8.1)
     rainbow (3.1.1)
     rbtree (0.4.6)
-    regexp_parser (2.11.3)
+    regexp_parser (2.12.0)
     reline (0.6.3)
       io-console (~> 0.5)
     rspec (3.13.2)
@@ -70,11 +70,11 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.13.0)
     rspec-support (3.13.6)
-    rubocop (1.86.0)
+    rubocop (1.86.1)
       json (~> 2.3)
       language_server-protocol (~> 3.17.0.2)
       lint_roller (~> 1.1.0)
-      parallel (~> 1.10)
+      parallel (>= 1.10)
       parser (>= 3.3.0.2)
       rainbow (>= 2.2.2, < 4.0)
       regexp_parser (>= 2.9.3, < 3.0)
