@@ -11,7 +11,7 @@ Fish in the sea of AMQP messages from rabbit.opensuse.org and do the right thing
 ## Installation
 
 ```shell
-zypper install libxml2-devel gcc ruby3.4-devel
+zypper install libxml2-devel gcc ruby4.0-devel
 bundle install --path vendor/bundle
 ```
 
