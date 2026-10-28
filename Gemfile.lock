@@ -3,7 +3,7 @@ GEM
   specs:
     amq-protocol (2.9.0)
     ast (2.4.3)
-    bunny (3.4.0)
+    bunny (3.5.0)
       amq-protocol (~> 2.9)
       logger (~> 1, >= 1.7)
       openssl (>= 3.3)
