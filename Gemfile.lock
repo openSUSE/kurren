@@ -1,10 +1,10 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    amq-protocol (2.9.0)
+    amq-protocol (2.10.0)
     ast (2.4.3)
-    bunny (3.5.0)
-      amq-protocol (~> 2.9)
+    bunny (3.6.0)
+      amq-protocol (~> 2.10)
       logger (~> 1, >= 1.7)
       openssl (>= 3.3)
       sorted_set (~> 1, >= 1.0.2)
